@@ -74,7 +74,7 @@ apt-get install -y curl &>/dev/null
 apt-get install -y sudo &>/dev/null
 apt-get install -y gnupg &>/dev/null
 apt-get install -y software-properties-common &>/dev/null
-add-apt-repository -y ppa:team-xbmc/ppa
+add-apt-repository -y ppa:team-xbmc/ppa &>/dev/null
 msg_ok "Installed Dependencies"
 
 msg_info "Setting Up Hardware Acceleration"  
